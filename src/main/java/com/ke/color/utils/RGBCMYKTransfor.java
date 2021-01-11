@@ -43,7 +43,7 @@ public class RGBCMYKTransfor {
 
         try {
             // 1. 获取工业标准文件
-            ClassPathResource resource = new ClassPathResource("ISOcoated_v2_300_eci.icc");
+            ClassPathResource resource = ColorStaticResources.getInstance();
             BufferedImage rgbImage = ImageIO.read(inputStream);
             ColorSpace cpace = new ICC_ColorSpace(ICC_Profile.getInstance(resource.getInputStream()));
             ColorConvertOp op = new ColorConvertOp(rgbImage.getColorModel().getColorSpace(), cpace, null);
