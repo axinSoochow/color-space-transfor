@@ -30,7 +30,7 @@
 RGBCMYKTransfor
 
 
-```
+```Java
 /**
     * 将图片为rgb转化为cmyk 图片文件
     *
@@ -71,7 +71,7 @@ RGBCMYKTransfor
 测试方法：
 
 
-```
+```Java
 public static File rgbToCmykFile(InputStream inputStream, String fileName);
 ```
 
@@ -79,7 +79,7 @@ public static File rgbToCmykFile(InputStream inputStream, String fileName);
 
 测试方法：
 
-```
+```Java
 public static void main(String[] args) {
  
         StopWatch watch = new StopWatch();
