@@ -1,4 +1,4 @@
-package com.ke.color.utils;
+package com.axin.idea.color.utils;
 
 import com.sun.media.jai.codec.TIFFEncodeParam;
 import com.sun.media.jai.codec.TIFFField;
@@ -8,7 +8,6 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
 * @author Axin

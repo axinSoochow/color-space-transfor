@@ -4,32 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.ke.ctt</groupId>
-		<artifactId>spring-boot-optimus-prime</artifactId>
-		<version>2.1.9.13</version>
-		<relativePath/>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.9.RELEASE</version>
 	</parent>
 
+	<groupId>com.axin.idea</groupId>
 	<artifactId>color-space-transfor</artifactId>
 	<packaging>jar</packaging>
-	<version>2.0-RELEASE</version>
-	<!-- 项目名称，如果生成API文档的话，会展示在界面 -->
-
-	<!-- 项目主页 -->
-	<url>http://wiki.lianjia.com/pages/viewpage.action?pageId=704975012</url>
-	<!-- 那个团队 -->
-	<organization>
-		<name>效率工程中心-研发二部-店面</name>
-	</organization>
-
-	<!-- 开发人员 -->
-	<developers>
-		<developer>
-			<id>26029855</id>
-			<name>Liu xin</name>
-			<email>liuxin066@ke.com</email>
-		</developer>
-	</developers>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<properties>
 		<media.jai.codec.version>1.1.3</media.jai.codec.version>

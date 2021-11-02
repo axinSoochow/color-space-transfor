@@ -1,4 +1,4 @@
-package com.ke.color.utils;
+package com.axin.idea.color.utils;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.StringUtils;
